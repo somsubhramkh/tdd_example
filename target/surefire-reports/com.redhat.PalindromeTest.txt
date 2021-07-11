@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.redhat.PalindromeTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.redhat.PalindromeTest
+com.redhat.PalindromeTest.test_is_true_if_word_is_palindrome()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.redhat.PalindromeTest.test_is_true_if_word_is_palindrome(PalindromeTest.java:23)
+
+com.redhat.PalindromeTest.test_is_false_if_word_is_not_palindrome()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.redhat.PalindromeTest.test_is_false_if_word_is_not_palindrome(PalindromeTest.java:29)
+
+com.redhat.PalindromeTest.test_can_identify_numeric_palindromes()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.redhat.PalindromeTest.test_can_identify_numeric_palindromes(PalindromeTest.java:35)
+
+com.redhat.PalindromeTest.test_single_character_string_is_not_a_palindrome()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.redhat.PalindromeTest.test_single_character_string_is_not_a_palindrome(PalindromeTest.java:41)
+
+com.redhat.PalindromeTest.test_numerical_palindromes_ignore_decimal_point()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.redhat.PalindromeTest.test_numerical_palindromes_ignore_decimal_point(PalindromeTest.java:47)
+
+com.redhat.PalindromeTest.test_case_is_ignored()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.redhat.PalindromeTest.test_case_is_ignored(PalindromeTest.java:53)
+
